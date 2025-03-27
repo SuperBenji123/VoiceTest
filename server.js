@@ -14,7 +14,7 @@ const options = {
 
 app.use(bodyParser.json() , cors())
 
-app.post('/crawl', (req, res) => {
+app.post('/voicecall', (req, res) => {
     const { url } = req.body;
 
     if (!url) {
